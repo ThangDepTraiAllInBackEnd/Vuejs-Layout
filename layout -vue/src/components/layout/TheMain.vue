@@ -150,6 +150,9 @@
 import axios from "axios";
 export default {
   created() {
+    /**
+     *get data from api url
+    */
     axios
       .get(this.apiUrl)
       .then((response) => {
